@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  background-size: stretch;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+.splashScreenContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  z-index: 1;
+}
+
+.enterButton {
+  position: fixed;
+  top: 50%;
+  left: 35%;
+  width: 30%;
+  height: 3em;
+  margin: auto;
+  font-size: 32px;
+  background: lavender;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  .enterButton {
+    left: 0;
+    width: 100%;
+  }
+}
+
+.enterButton:hover {
+  cursor: pointer;
+}
+
+.shrink {
+  height: 0;
+  transition: 2s;
+}
+
+.hidden {
+  display: none;
+}
+
+.cardContainer {
+  width: 90%;
+  max-width: 600px;
+  height: 350px;
+  max-height: 350px;
+  perspective: 800px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+
+.card {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+
+.card:hover .front{
+  transform: rotateY(-180deg);
+  cursor: pointer;
+}
+
+.card:hover .back {
+  transform: rotateY(0deg);
+  cursor: pointer;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+.face.front {
+  background: #000;
+  transform: rotateY(0deg);
+  border: 3px solid black;
+}
+
+.face.back {
+  display: block;
+  color: black;
+  text-align: left;
+  background-color: lavender;
+  transform: rotateY(180deg);
+  font-size: 32px;
+  border: 3px solid black;
+}
+
+
+.face.back > p {
+  margin: 20px;
+}
+.subCardsWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
+.subCardsWrapper > .cardContainerWrapper {
+  margin: 5px 10px;
+  width: 30%;
+  max-width: 520px;
+  height: 75%;
+  max-height: 480px;
+}
+
+@media only screen and (max-width: 960px) {
+  .subCardsWrapper > .cardContainerWrapper {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .subCardsWrapper > .cardContainerWrapper {
+    width: 75%;
+  }
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(Preloader_2.gif) center no-repeat #fff;
+}
