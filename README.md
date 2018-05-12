@@ -27,3 +27,22 @@ If not using images on both sides of subCards you need to change the props being
 ))}
 ```
 
+When ready to deploy follow these steps:
+
+1. Navigate to package.json and change homepage field
+```
+-  "homepage": "https://<gitHubUsernameHere>.github.io/<siteNameHere>",
+
++  "homepage": "https://samgetlan.github.io/simple-card-frontend-site",
+```
+
+
+2. In terminal, run `npm run predeploy` then `npm run deploy`
+
+3. Navigate to URL and see your site! Send the link to the recipient!
+
+
+
+
+DISCLAIMER: This site is not fully responsive and does not look very good on mobile. Feel free to make a pull request!
+

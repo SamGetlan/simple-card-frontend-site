@@ -2,7 +2,7 @@
   "name": "momsday",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://samgetlan.github.io/simple-card-frontend-site",
+  "homepage": "https://<gitHubUsernameHere>.github.io/<siteNameHere>",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.3.2",

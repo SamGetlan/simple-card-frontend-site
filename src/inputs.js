@@ -1,4 +1,5 @@
 const inputs = {
+  buttonText: `Enter Site`,
   mainCardText: `Example Card Text kdsafja dkfsjadfj asfdkasjf dklsaj fdjsafdl fas;fjieon asdjf`,
   mainCardImage: `mothersDay.gif`,
   splashScreen: 'exampleBackground.jpg',
