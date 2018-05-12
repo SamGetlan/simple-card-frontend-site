@@ -39,11 +39,9 @@ When ready to deploy follow these steps:
 ```
 
 
-2. In terminal, run `npm run predeploy` then `npm run deploy`
+2. In terminal, run `npm install`, `npm run predeploy` and then `npm run deploy`
 
 3. Navigate to URL and see your site! Send the link to the recipient!
-
-
 
 
 DISCLAIMER: This site is not fully responsive and does not look very good on mobile. Feel free to make a pull request!
