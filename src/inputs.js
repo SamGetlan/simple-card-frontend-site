@@ -6,15 +6,15 @@ const inputs = {
   subCards: [
     {
       frontImage: 'randomPicture.jpg',
-      backImage: 'randomPicture.jpg',
+      backImage: 'randomPicture2.jpg',
     },
     {
       frontImage: 'randomPicture.jpg',
-      backImage: 'randomPicture.jpg',
+      backImage: 'randomPicture2.jpg',
     },
     {
       frontImage: 'randomPicture.jpg',
-      backImage: 'randomPicture.jpg',
+      backImage: 'randomPicture2.jpg',
     },
   ],
 }
