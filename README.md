@@ -27,6 +27,8 @@ If not using images on both sides of subCards you need to change the props being
 ))}
 ```
 
+Change the title in the index.html and replace the favicon.ico image
+
 When ready to deploy follow these steps:
 
 1. Navigate to package.json and change homepage field
